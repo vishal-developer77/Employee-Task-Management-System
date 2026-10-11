@@ -1,0 +1,21 @@
+# React / Node
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+
+# .NET build files
+**/bin/
+**/obj/
+**/.vs/
+
+# Local environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets.json
+**/appsettings.json
+**/appsettings.Development.json
+
+**/*.csproj.user
+**/*.http
